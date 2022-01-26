@@ -46,6 +46,7 @@ Goal
 * Real-time updates for nearby crime/safety incidents
 * Provide GPS based directions
 * Provide buddy network to link with other commuters
+
 ![jerry](https://user-images.githubusercontent.com/97997238/151097091-3f99684f-fe1b-46a5-ad2c-d74e3562bdc2.png)
 
 Name: Jerry
@@ -69,6 +70,7 @@ Goal
 
 * Uses the application to report safety issues on campus. 
 * Also checks the app in the evenings when beginning his commute home after doing research in the lab. 
+
 ![stewart](https://user-images.githubusercontent.com/97997238/151097103-ef226133-7c7e-47c5-aee7-70ae609c74a8.png)
 
 Name: Stewart
