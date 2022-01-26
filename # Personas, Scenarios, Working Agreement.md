@@ -150,7 +150,7 @@ Fellow student from Northwestern University wants to visit IIT campus. He has ne
 
 Scenario #3
 
-A public safety officer needs to easily find the quickest route to an incident report.
+A public safety officer sees an urgent incident report and needs to easily find the quickest route to the reported location.
 
 
 # Team Members
