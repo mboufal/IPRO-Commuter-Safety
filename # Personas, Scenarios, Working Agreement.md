@@ -98,11 +98,10 @@ Goal:
 * Develops the safety plans based on incidents reports 
 * Analyze hotspots for incidents / hazards
 
+
 Other customer(s) or stakeholder(s)
 
-University Public Safety
-
-Campus visitors
+* Campus visitors
 
 
 # Application Type 
@@ -140,15 +139,15 @@ Phone or computer.
 
 # Scenarios
 
-Scenario #1
+## Scenario #1
 
 A student taking late night classes feels unsafe walking home alone and wants to find a fellow student to accompany them for some or all of their walk.
 
-Scenario #2
+## Scenario #2
 
 Fellow student from Northwestern University wants to visit IIT campus. He has never been on the South Side of the city, so he worries if his visit is safe. Before reaching the destination he logs into the app to check potential danger and the latest safety updates. He noticed that the robbery had taken place next to his bus stop, so he decides to contact school’s public safety officer and ask for accompanied transportation.
 
-Scenario #3
+## Scenario #3
 
 A public safety officer sees an urgent incident report and needs to easily find the quickest route to the reported location.
 
