@@ -125,7 +125,7 @@ Phone or computer.
 
 1. See incidents on map of campus (Mapping/GPS).
 2. Report an incident or hazard.
-3. Find a walking buddy.
+3. Find a walking buddy and/or request a public safety escort
 4. Get notification about current incidents or nearby hazards.
 5. Alerting public safety/authorities
     1. Contact 911. 
