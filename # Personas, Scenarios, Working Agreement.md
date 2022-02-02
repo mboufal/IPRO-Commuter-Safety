@@ -140,7 +140,7 @@ A student taking late night classes feels unsafe walking home alone and wants to
 
 ## Scenario #2
 
-Fellow student from Northwestern University wants to visit IIT campus. He has never been on the South Side of the city, so he worries if his visit is safe. Before reaching the destination he logs into the app to check potential danger and the latest safety updates. He noticed that the robbery had taken place next to his bus stop, so he decides to contact school’s public safety officer and ask for accompanied transportation.
+An individual wants to visit the IIT campus. He has never been on the South Side of the city, so he worries if his visit is safe. Before reaching the destination he logs into the app to check potential danger and the latest safety updates. He noticed that the robbery had taken place next to his bus stop, so he decides to contact school’s public safety officer and ask for accompanied transportation.
 
 ## Scenario #3
 
