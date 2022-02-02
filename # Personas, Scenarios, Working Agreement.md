@@ -3,9 +3,9 @@
 
 # Problem Statements
 
-1. IIT faculty and students can easily view and report public safety concerns improving their ability to safely travel to, from, and around campus.
+1. IIT campus community members can easily view and report public safety concerns improving their ability to safely travel to, from, and around campus.
 
-2. IIT students, faculty, and staff need up-to-date information about safety on campus while they are commuting. They can report incidents they observe and get updates about any current incidents.
+2. Campus Safety officers can easily access live incident reports and recent data improving their response time to reported incidents and improve overall campus security.
 
 
 # Customer
