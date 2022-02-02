@@ -10,11 +10,7 @@
 
 # Customer
 
-On and Off campus IIT Students
-
-Faculty members
-
-School staff 
+IIT campus community members
 
 Public Safety Officers
 
@@ -26,16 +22,15 @@ Name: Sofia
 
 Background:
 
+* English is second language
+* Small hometown
+* Out of country freshman
+* On-campus
+* No car
 
+Demographics:
 
-* Undergraduate student
-* Off-campus
-
-Demographics
-
-
-
-* Age: 19
+* Gender: Female
 
 Goal
 
@@ -55,15 +50,15 @@ Name: Jerry
 Background:
 
 
-
-* Graduate Student and TA
+* Owns a car
+* Chicago native
 * Off-Campus
 
 Demographics
 
 
 
-* Age: 26
+* Gender: Male
 
 Goal
 
@@ -79,7 +74,7 @@ Name: Stewart
 Background: 
 
 
-
+* Public Safety Vehicle
 * IIT Public Safety Worker 
 * Working on-campus
 
@@ -87,7 +82,7 @@ Demographics:
 
 
 
-* Age: 45
+* Gender: Male
 
 Goal: 
 
