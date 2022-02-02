@@ -13,6 +13,11 @@
 IIT campus community members
 
 Public Safety Officers
+___
+Other customer(s) or stakeholder(s)
+
+* Campus visitors
+
 
 
 # Customer Persona 
@@ -93,10 +98,6 @@ Goal:
 * Develops the safety plans based on incidents reports 
 * Analyze hotspots for incidents / hazards
 
-
-Other customer(s) or stakeholder(s)
-
-* Campus visitors
 
 
 # Application Type 
