@@ -241,3 +241,22 @@ Name Location Time zone offset from Chicago (Chicago is 0 offset)
     * Making sure work is done on time 
     * Reflect off others ideas and not just your own
     * Make sure to check team communication regularly and respond in a timely manner
+
+
+# Scrum Leaders
+
+* Angie
+    * 04/19/2022
+* Magda 
+    * 02/15/2022
+    * 02/22/2022
+* Hannah
+    * 03/01/2022
+    * 03/08/2022
+* Maciej
+    * 03/22/2022
+    * 03/29/2022
+    * 04/26/2022
+* Jake
+    * 04/05/2022
+    * 04/12/2022
