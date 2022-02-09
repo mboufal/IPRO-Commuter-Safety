@@ -137,7 +137,7 @@ Phone or computer.
 
 ## Scenario #1
 
-A student taking late night classes feels unsafe walking home alone and wants to find a fellow student to accompany them for some or all of their walk.
+A student leaves their late night class. They keep the app open just in case. As they are walking through campus, they witness a robbery. They grab their phone and tap the emergency call button. 
 
 ## Scenario #2
 
