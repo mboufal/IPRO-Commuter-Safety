@@ -246,6 +246,8 @@ Name Location Time zone offset from Chicago (Chicago is 0 offset)
 # Scrum Leaders
 
 * Angie
+    * 02/01/2022
+    * 02/08/2022
     * 04/19/2022
 * Magda 
     * 02/15/2022
