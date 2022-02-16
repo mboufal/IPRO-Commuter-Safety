@@ -27,6 +27,12 @@ DATABASE: Accident Reports
     * id (num, text)
     * name (text)
     * action_todo (text)
+* Locations
+    * id (num, text)
+    * GPS_cordinates
+    * address (text)
+    * type (text)
+    * shelter_availability (text)
 
 EXAMPLES:
 
@@ -98,7 +104,7 @@ EXAMPLES:
    </td>
    <td>18:54:27
    </td>
-   <td>41.831, -87.627
+   <td>41.83135172391024, -87.62640991620079
    </td>
    <td>A1
    </td>
@@ -114,7 +120,7 @@ EXAMPLES:
    </td>
    <td>20:04:56
    </td>
-   <td>41.838, -87.624
+   <td>41.838075139495025, -87.62493056354852
    </td>
    <td>A4
    </td>
@@ -224,3 +230,85 @@ EXAMPLES:
    </td>
   </tr>
 </table>
+
+
+
+
+* Locations
+
+<table>
+  <tr>
+   <td>
+id
+   </td>
+   <td>GPS
+   </td>
+   <td>address
+   </td>
+   <td>type
+   </td>
+   <td>shelter
+   </td>
+  </tr>
+  <tr>
+   <td>0001
+   </td>
+   <td>41.83135172391024, -87.62640991620079
+   </td>
+   <td>35th and State
+   </td>
+   <td>Bus Stop - Northbound - #29, #31
+   </td>
+   <td>No
+   </td>
+  </tr>
+  <tr>
+   <td>0002
+   </td>
+   <td>41.838075139495025, -87.62493056354852
+   </td>
+   <td>3101 S Wabash Ave
+   </td>
+   <td>IIT Building - Dormitory 
+   </td>
+   <td>Yes
+   </td>
+  </tr>
+  <tr>
+   <td>0003
+   </td>
+   <td>41.83232102390778, -87.6305059535825
+   </td>
+   <td>35th and I-90
+   </td>
+   <td>Red Line Stop
+   </td>
+   <td>Yes
+   </td>
+  </tr>
+  <tr>
+   <td>0004
+   </td>
+   <td>41.83143627500165, -87.62948237219821
+   </td>
+   <td>35th and Jones
+   </td>
+   <td>Metra Stop
+   </td>
+   <td>Yes
+   </td>
+  </tr>
+  <tr>
+   <td>0005
+   </td>
+   <td>41.83468975459567, -87.63187664635392
+   </td>
+   <td>33rd and Wentworth
+   </td>
+   <td>Divvy Bike Rack
+   </td>
+   <td>No
+   </td>
+  </tr>
+</table>
+
