@@ -3,9 +3,18 @@
 DATABASE: Accident Reports
 
 
-
 * Tables:
     * Column names (value type)
+
+* User (credentials)
+    * username
+    * password
+    * email
+* Role (access)
+    * name
+    * users (from User)
+    * role
+
 * Users:
     * id (num, text)
     * fname (text)
