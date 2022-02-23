@@ -11,6 +11,7 @@ DATABASE: Accident Reports
     * fname (text)
     * lname (text)
     * a_number (number)
+    * user_type
 * Reports
     * id (num, text)
     * date (date MM-DD-YYYY)
@@ -51,6 +52,8 @@ EXAMPLES:
    </td>
    <td><strong>A_number</strong>
    </td>
+   <td><strong>User_type</strong>
+   </td>
   </tr>
   <tr>
    <td>001
@@ -61,6 +64,8 @@ EXAMPLES:
    </td>
    <td>2056874
    </td>
+   <td>Public Safety Officer
+   </td>
   </tr>
   <tr>
    <td>002
@@ -70,6 +75,8 @@ EXAMPLES:
    <td>Green
    </td>
    <td>3454565
+   </td>
+    <td>Student
    </td>
   </tr>
 </table>
