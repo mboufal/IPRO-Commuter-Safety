@@ -6,6 +6,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IPRO GROUP E</title>
     <style>
+      {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
       .image {
         height: 50px;
       }
@@ -29,18 +90,57 @@
       <div style="width: 50%;">
         <p style="text-align: center;">GuidEd</p>
     </div >
-      <div style="width: 50%">
-      <p style="text-align:center">Report</p>
-       <form>
-        <input type="text" name="Issue" placeholder="Type of issue"></input>
-        <input type="text" name="Location" placeholder="Address of issue"></input>
-        <input type="text" name="Description" placeholder="Please provide a breif description of the issue"></input>
-        <label for="photo">Upload a photo of the issue</label>
-        <input type="submit">
-          <input type="file"
-           id="photo" name="photo"
-            accept="image/*">
-      </form>
+      <div style="width: 100%">
+        <div class="container">
+          <form action="action_page.php">
+            <div class="row">
+              <div class="col-25">
+                <label for="Type">Issue</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="Type" name="Issue" placeholder="Type of issue..">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="location">Location</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="location" name="Location" placeholder="Address of issue..">
+              </div>
+            </div>
+            <div>
+            <script>
+              var x = document.getElementById("demo");
+              function getLocation() {
+                if (navigator.geolocation) {
+                  navigator.geolocation.getCurrentPosition(showPosition);
+                } else {
+                  x.innerHTML = "Geolocation is not supported by this browser.";
+                }
+              }
+              
+              function showPosition(position) {
+                x.innerHTML = "Latitude: " + position.coords.latitude +
+                "<br>Longitude: " + position.coords.longitude;
+              }
+              </script></div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="subject">Subject</label>
+              </div>
+              <div class="col-75">
+                <textarea id="description" name="description" placeholder="Write a brief description of the issue.." style="height:200px"></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <div style="width: 50%">
+                <div style="display: flex; justify-content: center">
+              <input type="submit" value="Submit">
+            </div>
+          </form>
+        </div>
         </div>
       </div>
       <div style="width: 50%">
