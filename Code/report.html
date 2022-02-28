@@ -109,22 +109,6 @@ input[type=submit]:hover {
                 <input type="text" id="location" name="Location" placeholder="Address of issue..">
               </div>
             </div>
-            <div>
-            <script>
-              var x = document.getElementById("demo");
-              function getLocation() {
-                if (navigator.geolocation) {
-                  navigator.geolocation.getCurrentPosition(showPosition);
-                } else {
-                  x.innerHTML = "Geolocation is not supported by this browser.";
-                }
-              }
-              
-              function showPosition(position) {
-                x.innerHTML = "Latitude: " + position.coords.latitude +
-                "<br>Longitude: " + position.coords.longitude;
-              }
-              </script></div>
             </div>
             <div class="row">
               <div class="col-25">
@@ -138,6 +122,7 @@ input[type=submit]:hover {
               <div style="width: 50%">
                 <div style="display: flex; justify-content: center">
               <input type="submit" value="Submit">
+              </div>
             </div>
           </form>
         </div>
