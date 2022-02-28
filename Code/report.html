@@ -31,9 +31,16 @@
     </div >
       <div style="width: 50%">
       <p style="text-align:center">Report</p>
-      <p>
-       report form
-      </p>
+       <form>
+        <input type="text" name="Issue" placeholder="Type of issue"></input>
+        <input type="text" name="Location" placeholder="Address of issue"></input>
+        <input type="text" name="Description" placeholder="Please provide a breif description of the issue"></input>
+        <label for="photo">Upload a photo of the issue</label>
+        <input type="submit">
+          <input type="file"
+           id="photo" name="photo"
+            accept="image/*">
+      </form>
         </div>
       </div>
       <div style="width: 50%">
