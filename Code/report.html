@@ -103,13 +103,21 @@
     </div>
     <div style="width: 100%">
       <div class="container">
-        <form>
+        <form onsubmit="return false">
           <div class="row">
             <div class="col-25">
-              <label for="user-id">Issue</label>
+              <label for="user-id">User ID Number</label>
             </div>
             <div class="col-75">
               <input type="text" id="user-id" name="User ID" placeholder="Your Id Number..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="report-id">Report ID Number</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="report-id" name="Report ID" placeholder="Report ID number..">
             </div>
           </div>
           <div class="row">
@@ -155,7 +163,7 @@
   </div>
 
   <script type="text/javascript" src="js/DBConnect.js"></script>
-  <script type="text/javascript" src="js/ReportWrite.js"></script>git 
+  <script type="text/javascript" src="js/ReportWrite.js"></script>
 </body>
 
 </html>
