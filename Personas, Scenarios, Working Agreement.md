@@ -141,7 +141,7 @@ A student leaves their late night class. They keep the app open just in case. As
 
 ## Scenario #2
 
-An individual wants to visit the IIT campus. He has never been on the South Side of the city, so he worries if his visit is safe. Before reaching the destination he logs into the app to check potential danger and the latest safety updates. He noticed that the robbery had taken place next to his bus stop, so he decides to contact school’s public safety officer and ask for accompanied transportation.
+An individual wants to visit the IIT campus. He has never been on the South Side of the city, so he worries if his visit is safe. Before reaching the destination he opens the GuideEd app to check potential danger and the latest safety updates. 
 
 ## Scenario #3
 
