@@ -137,7 +137,7 @@ Phone or computer.
 
 ## Scenario #1
 
-A student leaves their late night class. They keep the app open just in case. As they are walking through campus, they witness a robbery. They grab their phone and tap the emergency call button. 
+A student leaves her late night class. She keeps the GuideEd app open just in case. As she is walking through campus, she notices an area of the walkway is covered in black ice. She taps the Report button and fills out the information to report the hazard. 
 
 ## Scenario #2
 
