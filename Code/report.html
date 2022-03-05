@@ -121,63 +121,41 @@
             </div>
           </div>
           <div class="row">
-            <p>Click the button to get your coordinates.</p>
+            <p>Click the button to get your current location.</p>
 
-<button onclick="getLocation()">Try It</button>
+            <button id="locate" type="button">Get Current Location</button>
 
-<p id="demo"></p>
-
-<script>
-var x = document.getElementById("demo");
-
-function getLocation() {
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(showPosition);
-  } else { 
-    x.innerHTML = "Geolocation is not supported by this browser.";
-  }
-}
-
-function showPosition(position) {
-  x.innerHTML = "Latitude: " + position.coords.latitude + 
-  "<br>Longitude: " + position.coords.longitude;
-}
-</script>
-
-</body>
-</html>
             <div class="col-25">
               <label for="location">Location</label>
             </div>
             <div class="col-75">
               <input type="text" id="lat" name="Latitude" placeholder="Latitude coordinate of incident..">
-            </div>
-            <div class="col-75">
               <input type="text" id="long" name="Longitude" placeholder="Longitude coordinate of incident..">
             </div>
           </div>
-      </div>
-      <div class="row">
-        <div class="col-25">
-          <label for="subject">Subject</label>
-        </div>
-        <div class="col-75">
-          <textarea id="description" name="description" placeholder="Write a brief description of the issue.."
-            style="height:200px"></textarea>
-        </div>
-      </div>
-      <div><label for="photo">Upload a photo</label>
-        <input type="file" id="photo" name="photo" accept="image/*">
-      </div>
-      <div class="row">
-        <div style="width: 50%">
-          <div style="display: flex; justify-content: center">
-            <input id="submit" type="submit" value="Submit">
+
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Subject</label>
+            </div>
+            <div class="col-75">
+              <textarea id="description" name="description" placeholder="Write a brief description of the issue.."
+                style="height:200px"></textarea>
+            </div>
           </div>
-        </div>
+          <div><label for="photo">Upload a photo</label>
+            <input type="file" id="photo" name="photo" accept="image/*">
+          </div>
+          <div class="row">
+            <div style="width: 50%">
+              <div style="display: flex; justify-content: center">
+                <input id="submit" type="submit" value="Submit">
+              </div>
+            </div>
         </form>
       </div>
     </div>
+  </div>
   </div>
   <div style="width: 50%">
     <div style="display: flex; justify-content: center">
