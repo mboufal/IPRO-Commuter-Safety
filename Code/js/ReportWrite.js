@@ -30,8 +30,7 @@ async function createParseReport() {
   let report = new Parse.Object("Reports");
   console.log("report object created");
   let user_id = parseInt(document.getElementById("user-id").value);
-  let report_id = parseInt(document.getElementById("report-id").value);
-  let lat = parseFLoat(document.getElementById("lat").value);
+  let lat = parseFloat(document.getElementById("lat").value);
   let long = parseFloat(document.getElementById("long").value);
 
 
@@ -40,10 +39,7 @@ async function createParseReport() {
   report.set("accident_location", new Parse.GeoPoint({latitude: lat, longitude: long}));
   report.set("report_date", new Date());
 
-  report.set("report_id", report_id);
-
-  console.log('Data input: ', user_id, report_id, lat, long);
-  console.log('Report id: ', report.get("user_id"));
+  console.log('Data input: ', user_id, lat, long);
 
   try {
     // Call the save method, which returns the saved object if successful
