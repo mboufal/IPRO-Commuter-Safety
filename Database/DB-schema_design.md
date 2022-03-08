@@ -7,20 +7,21 @@ DATABASE: Accident Reports
     * Column names (value type)
 
 * User (credentials)
+    * id
     * username
     * password
     * email
 * Role (access)
     * name
-    * users (from User)
-    * role
+    * id
+    * access_lvl
 
 * Users:
     * id (num, text)
     * fname (text)
     * lname (text)
     * a_number (number)
-    * user_type
+    * user_role
 * Reports
     * id (num, text)
     * date (date MM-DD-YYYY)
