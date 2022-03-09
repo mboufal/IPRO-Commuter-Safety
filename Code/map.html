@@ -16,6 +16,43 @@
         height: 35px;
       }
     </style>
+
+
+<!--- Here is the Google Maps integration, including the JS and CSS for the map itself (normally this 
+ would not be put here and instead in separate files, but I see we are already including CSS 
+ styling inline anyway so I dont want to have both inline and separate files at the same time, be too confusing) -->
+<style type="text/css">
+  /* Set the size of the div element that contains the map */
+  #map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
+</style>
+<script>
+  // Initialize and add the map
+  function initMap() {
+    // The location of Uluru
+    // const uluru = { lat: -25.344, lng: 131.036 }; -- can create markers manually this way but we dont need
+    // The map, centered at MTCC 41.83528875213209, -87.62582573024567
+    const map = new google.maps.Map(document.getElementById("map"), {
+      center: { lat: 41.835, lng: -87.626 },
+      zoom: 15
+    });
+    // The marker, positioned at Uluru
+    // const marker = new google.maps.Marker({
+    //   position: uluru,
+    //   map: map,
+    // });
+    const ctaLayer = new google.maps.KmlLayer({
+    url: "https://www.google.com/maps/d/u/1/kml?forcekml=1&mid=1JHet-vdWR1OvLKNCepH2V8lrwHutU2UY",
+    map: map,
+  });
+  }
+</script>
+
+
   </head>
   <body>
     <div style="width: 50%">
@@ -26,8 +63,16 @@
           /></a>
         </div>
       </div>
-        <p><iframe src="https:/google.com/maps/d/u/0/embed?mid=1JHet-vdWR1OvLKNCepH2V8lrwHutU2UY&ehbc=2E312F" width="640" height="480"></iframe> </p>
-      </div>
+
+<!--Here is the actual map-->
+<div id="map"></div>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script async
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDphMmvB6L-q-r1gcTLxcd0nY1FN5hU4mI&callback=initMap"
+    ></script>
+
+    </div>
     <div style="width: 50%">
         <div style="display: flex; justify-content: space-between">
           <div>
