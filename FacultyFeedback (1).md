@@ -35,7 +35,7 @@ Still no acceptance criteria in some of the stories we looked at
 
 ## Week 10 - Mar 15 ##
 
--Spring Break
+- Spring Break
 
 ## Week 11 - Mar 22 ##
 
