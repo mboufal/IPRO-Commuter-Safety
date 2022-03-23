@@ -1,6 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+      .button {
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      
+      .button1 {background-color: #4CAF50;} /* Green */
+      .button2 {background-color: #008CBA;} /* Blue */
+      .button3 {background-color: #ff0000	;} /* Red */
+      .button4 {background-color: #e4e73b	;} /* Yellow */
+      </style>
+      </head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,16 +41,11 @@
       <div style="display: flex; justify-content: space-between">
         <div>
           <a href="about.html">
-            <img src="images/infobutton.png" alt="info button" class="image"
-          /></a>
+        <button class="button button1">Info</button></a>
         </div>
         <div>
           <a href="signin.html">
-            <img
-              src="images/login-button-.jpg"
-              alt="blue login button"
-              class="image"
-          /></a>
+          <button class="button button2">Sign In</button></a>
         </div>
       </div>
       <div style="display: block">
@@ -48,43 +62,24 @@
       </div>
       <div style="display: flex; justify-content: center">
         <a href="map.html">
-          <img
-            src="images/enlarge.png"
-            alt="enlarge map icon"
-            width="51"
-            height="50"
-            class="image2"
-        /></a>
+        <button class="button button1">Enlarge Map</button></a>
       </div>
     </div>
     <div style="width: 50%">
-      <div style="display: flex; justify-content: space-between">
-        <div>
-          <a href="report.html">
-            <img
-              src="images/report-button.jpg"
-              alt="Red Button to report an indcident"
-              class="image"
-          /></a>
+      <div style="display: flex; justify-content: right">
+        <a href="report.html">
+        <button class="button button4">Submit Report</button></a>
         </div>
         <div>
           <a href="walkbuddy.html">
-            <img
-              src="images/green.jpg"
-              alt="Green button to find a walk buddy"
-              class="image3"
-          /></a>
+          <button class="button button1">Walk Buddy</button></a>
         </div>
       </div>
     </div>
     <div style="width: 50%">
       <div style="display: flex; justify-content: center">
         <a href="callbutton.html">
-          <img
-            src="images/911button.jpg"
-            alt="Call Emerigency Services"
-            class="image2"
-        /></a>
+        <button class="button button3">911</button></a>
       </div>
     </div>
   </body>
