@@ -1,6 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ff0000;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.main {
+  padding: 16px;
+  margin-bottom: 30px;
+}
+</style>
+</head>
+<body>
+
+<div class="main">
+</div>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,37 +62,64 @@
   <div class="topnav" id="myTopnav"><!--TOP NAVIGATION-->
     <a href="index.html" class="active"><i class="fa fa-home" aria-hidden="true"></i></a>
     <a href="map.html">Map</a>
+    <a href="signin.html" >Sign In</a>
 	<a href="registration.html">Register</a>
 	<a href="about.html">About</a>
 	<a href="incident.html" >Reports</a>
+  
 <!--<a href="mailto:#null">Email us!</a> 
     <a href="tel:+05890000111">Call us!</a> -->
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
-  </div><!--END OF TOP NAVIGATON-->
-    <div style="width: 50%">
+  </div><!--END OF TOP NAVIGATON--> 
+  <div class="navbar" id="mybottomnav"><!--BOTTOM NAVIGATION-->
+    <a href="report.html">Submit Report</a>
+    <a href="callbutton.html" >911</a>
+	<a href="walkbuddy.html">Walk Buddy</a>
+  
+<!--<a href="mailto:#null">Email us!</a> 
+    <a href="tel:+05890000111">Call us!</a> -->
+
+  </div><!--END OF BOTTOM NAVIGATON-->
+  <style>
+    .btn {
+  display:block;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 10px solid rgb(68, 67, 67); 
+}
+    .button {
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+    
+    .button1 {background-color: #4CAF50;} /* Green */
+    .button2 {background-color: #008CBA;} /* Blue */
+    .button3 {background-color: #ff0000	;} /* Red */
+    .button4 {background-color: #e4e73b	;} /* Yellow */
+    </style>  
+  <div style="width: 50%">
       <div style="display: flex; justify-content: space-between">
-        <div>
-          <a href="about.html">
-            <img src="images/infobutton.png" alt="info button" class="image"
-          /></a>
-        </div>
-        <div>
-          <a href="signin.html">
-            <img
-              src="images/login-button-.jpg"
-              alt="blue login button"
-              class="image"
-          /></a>
-        </div>
+      
       </div>
       <div style="display: block">
         <a href="incident.html">
-          <p>feed section</p>
+          <div class="container" style="background-color:#f1f1f18c; border: #333;">
+          <p>scrolling feed section</p>
         </a>
       </div>
-      <div style="display: block">
+      </div>
+      <div style="width: 50%">
+        <div style="display: flex; justify-content: space-between">
         <iframe
           src="https:/google.com/maps/d/u/0/embed?mid=1JHet-vdWR1OvLKNCepH2V8lrwHutU2UY&ehbc=2E312F"
           width="640"
@@ -56,44 +128,13 @@
       </div>
       <div style="display: flex; justify-content: center">
         <a href="map.html">
-          <img
-            src="images/enlarge.png"
-            alt="enlarge map icon"
-            width="51"
-            height="50"
-            class="image2"
-        /></a>
+          <button class=".btn">+</a>
       </div>
     </div>
     <div style="width: 50%">
       <div style="display: flex; justify-content: space-between">
-        <div>
-          <a href="report.html">
-            <img
-              src="images/report-button.jpg"
-              alt="Red Button to report an indcident"
-              class="image"
-          /></a>
-        </div>
-        <div>
-          <a href="walkbuddy.html">
-            <img
-              src="images/green.jpg"
-              alt="Green button to find a walk buddy"
-              class="image3"
-          /></a>
-        </div>
       </div>
     </div>
-    <div style="width: 50%">
-      <div style="display: flex; justify-content: center">
-        <a href="callbutton.html">
-          <img
-            src="images/911button.jpg"
-            alt="Call Emerigency Services"
-            class="image2"
-        /></a>
-      </div>
-    </div>
+	  </div>
   </body>
 </html>
