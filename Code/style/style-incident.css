@@ -27,16 +27,33 @@ h2{
   text-align: center;
   font-family: Gloria Hallelujah, cursive;
 }
-footer{ 
-  width: 960px;
-  margin: auto;
-  text-align: center;
+.footer1 {
+  position:fixed;
+  bottom:0;
+  left:0;
+  width: 100%;
+  height: 20%;
+  background-color: white;
 }
-footer ul li{
-  display: inline-block;
+.footer1 ul{
   list-style-type: none;
-  margin: 20px;
-  font-size: 1.5em;
+  padding: 0;
+  overflow: hidden;
+}
+.footer1 ul li{
+	display: inline;
+}
+
+.icon-style {
+  height:100px;
+  margin-left:2px;
+  margin-top:5px;
+}
+.topnav-centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 #logo{
   width:100%;
