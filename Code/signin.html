@@ -17,25 +17,21 @@
     rel="stylesheet">
   <script type="text/javascript" src="js/incident_page.js"></script>
   <title>IPRO GROUP E | Home</title>
+  
 </head>
 
 <body>
-  <div class="topnav" id="myTopnav">
-    <!--TOP NAVIGATION-->
+  <div class="topnav" id="myTopnav"><!--TOP NAVIGATION-->
     <a href="index.html" class="active"><i class="fa fa-home" aria-hidden="true"></i></a>
     <a href="map.html">Map</a>
     <a href="signin.html">Sign In</a>
     <a href="registration.html">Register</a>
     <a href="about.html">About</a>
     <a href="incident.html">Reports</a>
-
-    <!--<a href="mailto:#null">Email us!</a> 
-        <a href="tel:+05890000111">Call us!</a> -->
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
-  </div>
-  <!--END OF TOP NAVIGATON-->
+  </div><!--END OF TOP NAVIGATON-->
   <style>
     body {
       font-family: Arial, Helvetica, sans-serif;
@@ -117,50 +113,39 @@
       height: 35px;
     }
   </style>
-  </head>
-
-  <body>
+  <div style="width: 50%">
+    <div style="display: flex; justify-content: space-between"></div>
+    <div style="width: 50%;"><p style="text-align: center;">GuidEd</p></div>
     <div style="width: 50%">
-      <div style="display: flex; justify-content: space-between">
-
-      </div>
-      <div style="width: 50%;">
-        <p style="text-align: center;">GuidEd</p>
-      </div>
-      <div style="width: 50%">
-        <p style="text-align:center">Log In</p>
-        <form>
-          <div class="imgcontainer">
-            <img src="images/img_avatar2.png" alt="Avatar" class="avatar">
-          </div>
-
-          <div class="container">
-            <label for="uname"><b>Username</b></label>
-            <input type="text" placeholder="Enter Username" name="uname" required>
-
-            <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required>
-
-            <button type="submit">Login</button>
-            <label>
-              <input type="checkbox" checked="checked" name="remember"> Remember me
-            </label>
-          </div>
-          <div class="container" style="background-color:#f1f1f1">
-            <a href="index.html"><button type="button" class="cancelbtn">Cancel</button>
-            </a>
-            <span class="psw">Forgot <a href="#">password?</a></span>
-          </div>
-        </form>
-      </div>
+      <p style="text-align:center">Log In</p>
+      <form>
+        <div class="imgcontainer">
+          <img src="images/img_avatar2.png" alt="Avatar" class="avatar">
+        </div>
+		<div class="container">
+          <label for="uname"><b>Username</b></label>
+		  <input type="text" placeholder="Enter Username" name="uname" required>
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+        <div class="container" style="background-color:#f1f1f1">
+          <a href="index.html"><button type="button" class="cancelbtn">Cancel</button></a>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
     </div>
-    <div style="width: 50%">
-      <div style="display: flex; justify-content: center">
-        <a href="callbutton.html">
-          <img src="images/911button.jpg" alt="Call Emerigency Services" class="image2" /></a>
-      </div>
-    </div>
-    </div>
+  </div>
+  <div class="footer1">
+    <ul class="topnav-centered">
+	  <li><a href="report.html"><img src="images/report-button.png" alt="Red Button to report an indcident" class="icon-style"/></a></li>
+      <li><a href="callbutton.html"><img src="images/911button.jpg" alt="Call Emerigency Services" class="icon-style" /></a></li>
+	  <li><a href="walkbuddy.html"><img src="images/green.png" alt="Green button to find a walk buddy" class="icon-style"/></a></li>
+    </ul>
+  </div>
   </body>
 
 </html>
