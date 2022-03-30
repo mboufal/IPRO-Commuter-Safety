@@ -18,24 +18,6 @@
   <script type="text/javascript" src="js/incident_page.js"></script>
   <title>IPRO GROUP E | Home</title>
 </head>
-
-<body>
-  <div class="topnav" id="myTopnav">
-    <!--TOP NAVIGATION-->
-    <a href="index.html" class="active"><i class="fa fa-home" aria-hidden="true"></i></a>
-    <a href="map.html">Map</a>
-    <a href="signin.html">Sign In</a>
-    <a href="registration.html">Register</a>
-    <a href="about.html">About</a>
-    <a href="incident.html">Reports</a>
-
-    <!--<a href="mailto:#null">Email us!</a> 
-        <a href="tel:+05890000111">Call us!</a> -->
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
-  <!--END OF TOP NAVIGATON-->
   <style>
     {
       box-sizing: border-box;
@@ -116,10 +98,24 @@
       height: 35px;
     }
   </style>
-  </head>
+</head>
 
-  <body>
-    <div style="width: 50%">
+<body>
+  <div class="topnav" id="myTopnav">
+    <!--TOP NAVIGATION-->
+    <a href="index.html" class="active"><i class="fa fa-home" aria-hidden="true"></i></a>
+    <a href="map.html">Map</a>
+    <a href="signin.html">Sign In</a>
+    <a href="registration.html">Register</a>
+    <a href="about.html">About</a>
+    <a href="incident.html">Reports</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  <!--END OF TOP NAVIGATON-->
+  <div style="wrapper">
+    <div>
       <div style="display: flex; justify-content: space-between">
         <div>
           <div style="width: 50%;">
@@ -168,13 +164,14 @@
         </div>
       </div>
     </div>
-    <div style="width: 50%">
-      <div style="display: flex; justify-content: center">
-        <a href="callbutton.html">
-          <img src="images/911button.jpg" alt="Call Emerigency Services" class="image2" /></a>
-      </div>
-    </div>
-    </div>
-  </body>
+  </div>
+  <div class="footer1">
+    <ul class="topnav-centered">
+	  <li><a href="report.html"><img src="images/report-button.png" alt="Red Button to report an indcident" class="icon-style"/></a></li>
+      <li><a href="callbutton.html"><img src="images/911button.jpg" alt="Call Emerigency Services" class="icon-style" /></a></li>
+	  <li><a href="walkbuddy.html"><img src="images/green.png" alt="Green button to find a walk buddy" class="icon-style"/></a></li>
+    </ul>
+  </div>
+</body>
 
 </html>

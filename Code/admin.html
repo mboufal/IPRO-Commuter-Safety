@@ -2,8 +2,6 @@
 <html lang="en">
 
 <head>
-
-  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,25 +15,7 @@
       rel="stylesheet">
     <script type="text/javascript" src="js/incident_page.js"></script>
     <title>IPRO GROUP E | Home</title>
-  </head>
 
-<body>
-  <div class="topnav" id="myTopnav">
-    <!--TOP NAVIGATION-->
-    <a href="index.html" class="active"><i class="fa fa-home" aria-hidden="true"></i></a>
-    <a href="map.html">Map</a>
-    <a href="signin.html">Sign In</a>
-    <a href="registration.html">Register</a>
-    <a href="about.html">About</a>
-    <a href="incident.html">Reports</a>
-
-    <!--<a href="mailto:#null">Email us!</a> 
-      <a href="tel:+05890000111">Call us!</a> -->
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
-  <!--END OF TOP NAVIGATON-->
   <style>
     .button {
       border: none;
@@ -70,7 +50,7 @@
 
     /* Yellow */
   </style>
-  </head>
+  
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -90,44 +70,52 @@
   </style>
   </head>
 
-  <body>
-    <div style="width: 50%">
-      <div style="display: flex; justify-content: space-between">
+<body>
+  <div class="topnav" id="myTopnav">
+    <!--TOP NAVIGATION-->
+    <a href="index.html" class="active"><i class="fa fa-home" aria-hidden="true"></i></a>
+    <a href="map.html">Map</a>
+    <a href="signin.html">Sign In</a>
+    <a href="registration.html">Register</a>
+    <a href="about.html">About</a>
+    <a href="incident.html">Reports</a>
+
+    <!--<a href="mailto:#null">Email us!</a> 
+      <a href="tel:+05890000111">Call us!</a> -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  <!--END OF TOP NAVIGATON-->
+  <div style="width: 50%">
+    <div style="display: flex; justify-content: space-between"></div>
+    <div style="width: 100%">
+      <p style="text-align:center">Incident Reports</p>
+      <div class="container" style="background-color:#f1f1f1">
+      <p>pending report </p>
       </div>
-      <div style="width: 100%">
-        <p style="text-align:center">Incident Reports</p>
-        <div class="container" style="background-color:#f1f1f1">
-          <p>pending report </p>
+    </div>
+    </div>
+    <button class="button button1">Submit Alert</button>
+    <button class="button button3">Approve Report</button>
+    <div style="width: 100%">
+      <div class="container" style="background-color:#f1f1f1">
+        <div class="col-75">
+          <textarea id="description" name="description" placeholder="Write a brief description of the issue.." style="height:200px"></textarea>
         </div>
       </div>
     </div>
-
-    <body>
-
-      <button class="button button1">Submit Alert</button>
-
-      <button class="button button3">Approve Report</button>
-      <div style="width: 100%">
-        <div class="container" style="background-color:#f1f1f1">
-        </div class="col-75">
-        <textarea id="description" name="description" placeholder="Write a brief description of the issue.."
-          style="height:200px"></textarea>
-      </div>
-      </div>
-      </div>
-      </div>
-      <button class="button button2">Upload Report</button>
-      </div>
-      <div style="width: 50%">
-        <div style="display: flex; justify-content: space-between">
+    <button class="button button2">Upload Report</button>
+    <div style="width: 50%">
+      <div style="display: flex; justify-content: space-between">
           <div style="width: 100%">
             <p style="text-align:center">User Pending Approval</p>
             <div class="container" style="background-color:#f1f1f1">
               <p>pending user</p>
             </div>
           </div>
-        </div>
       </div>
+    </div>
       <button class="button button4">Approve User</button>
       <button class="button button3">Deny User</button>
 
@@ -138,6 +126,6 @@
 	  <li><a href="walkbuddy.html"><img src="images/green.png" alt="Green button to find a walk buddy" class="icon-style"/></a></li>
     </ul>
   </div>   
-    </body>
+</body>
 
 </html>
