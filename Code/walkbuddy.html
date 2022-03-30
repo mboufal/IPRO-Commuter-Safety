@@ -1,119 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>IPRO GROUP E</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="style/normalize.css">
-    <link rel="stylesheet" href="style/style-incident.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet">
-      <script type="text/javascript" src="js/incident_page.js"></script> 
-      <title>IPRO GROUP E | Home</title>
-    </head>
-    <body>
-      <div class="topnav" id="myTopnav"><!--TOP NAVIGATION-->
-        <a href="index.html" class="active"><i class="fa fa-home" aria-hidden="true"></i></a>
-        <a href="map.html">Map</a>
-        <a href="signin.html" >Sign In</a>
-      <a href="registration.html">Register</a>
-      <a href="about.html">About</a>
-      <a href="incident.html" >Reports</a>
-      
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IPRO GROUP E</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="style/normalize.css">
+  <link rel="stylesheet" href="style/style-incident.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Roboto&family=Roboto+Condensed&display=swap"
+    rel="stylesheet">
+  <script type="text/javascript" src="js/incident_page.js"></script>
+  <title>IPRO GROUP E | Home</title>
+</head>
+
+<body>
+  <div class="topnav" id="myTopnav">
+    <!--TOP NAVIGATION-->
+    <a href="index.html" class="active"><i class="fa fa-home" aria-hidden="true"></i></a>
+    <a href="map.html">Map</a>
+    <a href="signin.html">Sign In</a>
+    <a href="registration.html">Register</a>
+    <a href="about.html">About</a>
+    <a href="incident.html">Reports</a>
+
     <!--<a href="mailto:#null">Email us!</a> 
         <a href="tel:+05890000111">Call us!</a> -->
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </div><!--END OF TOP NAVIGATON--> 
-    <style>
-      {
-  box-sizing: border-box;
-}
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  <!--END OF TOP NAVIGATON-->
+  <style>
+    {
+      box-sizing: border-box;
+    }
 
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  resize: vertical;
-}
+    input[type=text],
+    select,
+    textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      resize: vertical;
+    }
 
-label {
-  padding: 12px 12px 12px 0;
-  display: inline-block;
-}
+    label {
+      padding: 12px 12px 12px 0;
+      display: inline-block;
+    }
 
-input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  float: right;
-}
+    input[type=submit] {
+      background-color: #04AA6D;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      float: right;
+    }
 
-input[type=submit]:hover {
-  background-color: #45a049;
-}
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
 
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-}
+    .container {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
 
-.col-25 {
-  float: left;
-  width: 25%;
-  margin-top: 6px;
-}
+    .col-25 {
+      float: left;
+      width: 25%;
+      margin-top: 6px;
+    }
 
-.col-75 {
-  float: left;
-  width: 75%;
-  margin-top: 6px;
-}
+    .col-75 {
+      float: left;
+      width: 75%;
+      margin-top: 6px;
+    }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
 
-@media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
-}
-      .image {
-        height: 50px;
+    @media screen and (max-width: 600px) {
+
+      .col-25,
+      .col-75,
+      input[type=submit] {
+        width: 100%;
+        margin-top: 0;
       }
-      .image2 {
-        height: 100px;
-      }
-      .image3 {
-        height: 35px;
-      }
-    </style>
+    }
+
+    .image {
+      height: 50px;
+    }
+
+    .image2 {
+      height: 100px;
+    }
+
+    .image3 {
+      height: 35px;
+    }
+  </style>
   </head>
+
   <body>
     <div style="width: 50%">
       <div style="display: flex; justify-content: space-between">
         <div>
           <div style="width: 50%;">
+          </div>
         </div>
-      </div>
       </div>
       <div style="width: 50%;">
         <p style="text-align: center;">Walk Buddy</p>
-    </div >
+      </div>
       <div style="width: 100%">
         <div class="container">
           <form action="action_page.php">
@@ -133,35 +148,33 @@ input[type=submit]:hover {
                 <input type="text" id="end" name="Destination" placeholder="Your destination..">
               </div>
             </div>
-            </div>
-            <div class="row">
-              <div class="col-25">
-                <label for="time">Time of departure</label>
-              </div>
-              <div class="col-75">
-                <input type="text" id="time" name="Time of departure" placeholder="What time would you like to begin your commute?">
-              </div>
-            </div>
-            <div class="row">
-              <div style="width: 50%">
-                <div style="display: flex; justify-content: center">
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="time">Time of departure</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="time" name="Time of departure"
+              placeholder="What time would you like to begin your commute?">
+          </div>
+        </div>
+        <div class="row">
+          <div style="width: 50%">
+            <div style="display: flex; justify-content: center">
               <input type="submit" value="Submit">
-              </div>
             </div>
+          </div>
           </form>
-        </div>
-        </div>
-      </div>
-      <div style="width: 50%">
-        <div style="display: flex; justify-content: center">
-          <a href="callbutton.html">
-            <img
-              src="images/911button.jpg"
-              alt="Call Emerigency Services"
-              class="image2"
-          /></a>
         </div>
       </div>
     </div>
+    <div style="width: 50%">
+      <div style="display: flex; justify-content: center">
+        <a href="callbutton.html">
+          <img src="images/911button.jpg" alt="Call Emerigency Services" class="image2" /></a>
+      </div>
+    </div>
+    </div>
   </body>
+
 </html>
