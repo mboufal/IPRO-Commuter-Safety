@@ -1,0 +1,113 @@
+*{
+  margin: 0px
+}
+
+
+body{
+    background-color: #ffffff;
+    color: #000000;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font: size 14px;
+    font-weight: normal;
+  
+    border-style : Solid;
+    border-color : #000000;
+    border-color : rgba(0, 0, 0, 1);
+    border-width : 20px;
+    left : 10px;
+    top : 10px;
+    width : 640px;
+    height : 1200px;
+    border-radius : 100px;
+    -moz-border-radius : 100px;
+    -webkit-border-radius : 100px
+}
+
+.info{
+  padding-top: 10%;
+  padding-left: 10%;
+
+
+}
+
+.login{
+  object-position: 50, 500 px;
+
+}
+
+.list
+{
+  border-style : Solid;
+  border-color : #000000;
+  border-color : rgba(0, 0, 0, 1);
+  border-width : 8px;
+  position : absolute ;
+  left : 60px;
+  top : 301px;
+  width : 995px;
+  height : 269px;
+  border-radius : 67px;
+  -moz-border-radius : 67px;
+  -webkit-border-radius : 67px;
+}
+
+.incident
+{
+  border-style : Solid;
+  border-color : #000000;
+  border-color : rgba(0, 0, 0, 1);
+  border-width : 8px;
+  position : absolute ;
+  left : 783px;
+  top : 1782px;
+  width : 238px;
+  height : 238px;
+}
+
+.walkbuddy{
+  border-style : Solid;
+  border-color : #000000;
+  border-color : rgba(0, 0, 0, 1);
+  border-width : 8px;
+  position : absolute ;
+  left : 783px;
+  top : 1782px;
+  width : 238px;
+  height : 238px;
+}
+
+.Emergency_Button{
+  border-style : Solid;
+  border-color : #FF0000;
+  border-color : rgba(255, 0, 0, 1);
+  border-width : 20px;
+  position : absolute ;
+  left : 399px;
+  top : 1990px;
+  width : 330px;
+  height : 330px;
+  object-position: 70%70%;
+  z-index: 1000;
+  display: flex;
+  flex-flow: row wrap;
+  justify-self: center;
+  align-items: flex-end;
+}
+
+.container{
+  border-style : Solid;
+    border-color : #aaaaaa;
+    border-color : rgba(0, 0, 0, 1);
+    border-width : 20px;
+    position : absolute ;
+    left : 40px;
+    top : 40px;
+    width : 640px;
+    height : 1000px;
+    border-radius : 100px;
+    -moz-border-radius : 100px;
+    -webkit-border-radius : 100px;
+    margin: center
+    align: center
+}

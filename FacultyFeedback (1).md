@@ -27,7 +27,7 @@
 ## Week 8 - Mar 1 ##
 
 - Great job with the demo!
-Still no acceptance criteria in some of the stories we looked at
+- Still no acceptance criteria in some of the stories we looked at
 
 ## Week 9 - Mar 8 ##
 
@@ -38,6 +38,31 @@ Still no acceptance criteria in some of the stories we looked at
 - Spring Break
 
 ## Week 11 - Mar 22 ##
+- Maciej is SCRUM Lead
+   - Completed 
+   - Working on CSS styling #49 
+	 - No distinct description / acceptance criteria
+	 - Angela is sharing a story for another page
+
+- Magdalena
+
+	- Working on #57 Incident Page
+	- #11 and #10 are on hold may need to break these up
+	
+- Jake
+	- #38 still in progress
+	- All done stories are mobs
+		○ Individual stories going forward
+- Angie
+	- Finished #43, #45, #41 (wireframes)
+	- Breaking up stories she is mobbed on
+	
+- Hannah
+	- Working on #51 (spaghetti code)
+	
+Faculty Note: Descriptions describe the "What". Acceptance criteria should include proof and final actions. ie: input on UI results in update to DB.  Code is checked into repo. etc. 
+
+Remember the dry run demo/presentation is on 4/19 and the final class presentation is on 4/26. In addition, there is the audience choice part of the pitch competition on 4/22!
 
 ## Week 12 - Mar 29 ##
 
