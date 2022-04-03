@@ -29,7 +29,8 @@ async function createParseReport() {
   // Create new Parse object: "Report"
   let report = new Parse.Object("Reports");
   console.log("report object created");
-  let user_id = parseInt(document.getElementById("user-id").value);
+  // let user_id = parseInt(document.getElementById("user-id").value);
+  let user_id = parseFloat(sessionStorage.getItem("id"));
   let lat = parseFloat(document.getElementById("lat").value);
   let long = parseFloat(document.getElementById("long").value);
 
