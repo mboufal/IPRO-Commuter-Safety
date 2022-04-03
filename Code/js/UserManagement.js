@@ -40,14 +40,37 @@ let userIds = {
   "security" : "54321"
 }
 
-// implementing the above class to change the user
+// make admin button and add to nav
+function showAdminButton() {
+  const nav = document.getElementById("myTopnav");
+
+  const adminBtn = document.createElement("a");
+  const href = document.createAttribute("href");
+  const id = document.createAttribute("id");
+
+  adminBtn.innerHTML = "Admin";
+  href.value = "admin.html";
+  id.value = "admin-btn";
+
+  adminBtn.setAttributeNode(href);
+  adminBtn.setAttributeNode(id);
+
+  nav.insertBefore(adminBtn, nav.children[6]);
+}
+
+// remove admin button from nav
+function removeAdminButton() {
+  document.getElementById("admin-btn").remove();
+}
+
+// implementing the above UserSession class to change the user
 const log = console.log; 
 const userSelect = document.querySelector(`[id="user-select"]`); 
 
 // create UserSession object
 let uSession = new UserSession();
 
-// on first open of the website, set the session user to default (ie. guest)
+// on first open of the page, set the session user to default (ie. guest)
 if(uSession.getUserType() == undefined || uSession.getUserType() == null) {
   // get the default selected option from the user dropdown (guest)
   uSession.username = userSelect.selectedOptions[0].text;
@@ -59,6 +82,8 @@ if(uSession.getUserType() == undefined || uSession.getUserType() == null) {
   uSession.setUserId(userIds[uSession.type]);
 
   log("Default user:", uSession.getUserType());
+} else if(uSession.getUserType() == "security") {
+  showAdminButton();
 }
 
 // set the welcome message 
@@ -82,4 +107,11 @@ userSelect.addEventListener("change", (e) => {
 
   // update the welcome message
   document.getElementById("user-select-label").innerHTML = "Hello " + uSession.getUsername();
+
+  // add or remove admin button
+  if(value == "security") {
+    showAdminButton();
+  } else {
+    removeAdminButton();
+  }
 });
