@@ -14,7 +14,7 @@
     //   map: map,
     // });
     const ctaLayer = new google.maps.KmlLayer({
-    url: "https://www.google.com/maps/d/u/1/kml?forcekml=1&mid=1JHet-vdWR1OvLKNCepH2V8lrwHutU2UY",
+    url: "https://github.com/mboufal/IPRO-Commuter-Safety/raw/main/Code/iPro.kmz",
     map: map,
   });
   }
