@@ -48,8 +48,5 @@ Built on crowdsourcing technology guide allows you to view any potential safety 
 Black ice on the sidewalk or something a little bit more troubling like a few street lights that are out when walking between buildings. Or even something a little bit more severe than this. Guide it allows you to know what incidents have happened where geographically so if you need to reroute you can.
 
 
-Since we're all attached or smart phones these days after you've checked the application for any recent incidents you can leave it open as all of the pages have a emergency button on the bottom it's just one tap away from making sure that if anything happens you know how it's coming immediately. This emergency button can be linked to local campus security or the police. 
-
-Additionally a future for university students is walk buddy this feature allows you to request a friend to fuck you from kindness or from a transportation back to your dorm or anywhere else on campus. Do you know long girl have to walk in the dark alone. Similar to many ridesharing applications the bodies are sourced University.
 
 
