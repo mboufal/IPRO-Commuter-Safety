@@ -35,17 +35,9 @@ An additional feature for university students is walk buddy. Many of us have bee
 
 *Revenue and Growth*
 
-
-
+ this application is meant to be used by universities for safety however should you know I deserve peacemaker profit revenue machine advertising to be added via google api
 ______
 
-How is this information different than the emergency alert system that many universities already provide to their students? Well this information is Crowdsourced populated by the students themselves faculty and even visitors. Priority level high incidence are monitored by the campus security which approve or deny certain incidents as well as check them out. This allows us to have more update in real time information instead of a statement email submitted two hours after an incident
-
-Within the student version of the application there's also a feature called walk by which allows you to request a walking partner to make sure you get home safely from elite lab and evening class or just commuting weight back to campus. The bodies are pre-approved by the university they have and beautiful background check. In the bed of hers and we are relying on the universities approved list of residential advisors this is list of courses fully updated some in a similar way that Uber updates
-
-
-Built on crowdsourcing technology guide allows you to view any potential safety hazards on your way home via the live incident feed for the map. Before you leave your late night class your lab order or just commuting home from work back to the dorm you can check the credit application to make sure that there haven't been any recent safety incidents in within the area. Incidents are Crowdsourced they can be added by students faculty staff public safety may have several different priorities. A student can add something as simple as 
-Black ice on the sidewalk or something a little bit more troubling like a few street lights that are out when walking between buildings. Or even something a little bit more severe than this. Guide it allows you to know what incidents have happened where geographically so if you need to reroute you can.
 
 
 
