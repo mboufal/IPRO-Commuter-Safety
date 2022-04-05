@@ -332,6 +332,19 @@ summary {
 /* Misc
    ========================================================================== */
 
+   /* Here is the Google Maps integration, including the JS and CSS for the map itself (normally this 
+   would not be put here and instead in separate files, but I see we are already including CSS 
+   styling inline anyway so I dont want to have both inline and separate files at the same time, be too confusing) */
+
+    /* Set the size of the div element that contains the map */
+    #map {
+      height: 580px;
+      /* The height is 400 pixels */
+      width: auto;
+      /* The width is the width of the web page */
+    }
+
+
 /**
  * Add the correct display in IE 10+.
  */
