@@ -35,14 +35,17 @@ async function createParseReport() {
   let long = parseFloat(document.getElementById("long").value);
   const typeSelect = document.querySelector(`[id="incident-type"]`);
   let type = typeSelect.value;
+  let desc = document.getElementById("description").value;
 
   console.log("incident type:", type);
+  console.log("description:", desc);
 
   // Set the input values to the new "Report" object
   report.set("user_id", user_id);
   report.set("accident_location", new Parse.GeoPoint({ latitude: lat, longitude: long }));
   report.set("report_date", new Date());
   report.set("accident_id", type);
+  report.set("description", desc);
 
   console.log('Data input: ', user_id, lat, long);
 
