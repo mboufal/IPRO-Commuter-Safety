@@ -1,3 +1,48 @@
+    .button {
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+
+    .button1 {
+      background-color: #4CAF50;
+    }
+
+    /* Green */
+    .button2 {
+      background-color: #008CBA;
+    }
+
+    /* Blue */
+    .button3 {
+      background-color: #ff0000;
+    }
+
+    /* Red */
+    .button4 {
+      background-color: #e4e73b;
+    }
+
+    /* Yellow */
+	
+    .image {
+      height: 50px;
+    }
+
+    .image2 {
+      height: 100px;
+    }
+
+    .image3 {
+      height: 35px;
+    }
+
    .image {
       height: 50px;
     }
@@ -10,11 +55,89 @@
       height: 35px;
     }
 	
-body{
-  line-height: 1.6;
-  font-family: Roboto Condensed, sans-serif;
-  margin-bottom: 300px;
-}
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .navbar {
+      overflow: hidden;
+      background-color: #333;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    .navbar a, #user-select-group {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .navbar a:hover {
+      background: #ff0000;
+      color: black;
+    }
+
+    .navbar a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+
+    .main {
+      padding: 16px;
+      margin-bottom: 30px;
+    }
+ .btn {
+      display: block;
+      height: 300px;
+      width: 300px;
+      border-radius: 50%;
+      border: 10px solid rgb(68, 67, 67);
+    }
+
+    .button {
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+
+    .button1 {
+      background-color: #4CAF50;
+    }
+
+    /* Green */
+    .button2 {
+      background-color: #008CBA;
+    }
+
+    /* Blue */
+    .button3 {
+      background-color: #ff0000;
+    }
+
+    /* Red */
+    .button4 {
+      background-color: #e4e73b;
+    }
+
+	
+	
+	
+	
+	
+	
+	
 h1 {
   color: #A52A2A;
   font-family: Gloria Hallelujah, cursive;
@@ -64,14 +187,6 @@ h2{
   width: 960px;
   margin: auto;
   padding: 30px;
-}
-.nav-logo{
-  display: block;
-  width: 360px;
-  margin: auto;
-}
-.main-img{
-  width: 50%;
 }
 
 
@@ -168,7 +283,7 @@ h2{
 }
 .icon-style{
 	width: 30%;
-	heigh: 200px;
+	height: 200px;
 }
 .topnav-centered{
 	width:90%;
