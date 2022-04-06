@@ -78,6 +78,12 @@ Remember the dry run demo/presentation is on 4/19 and the final class presentati
 
 ## Week 13 - Apr 5 ##
 
+- Jake  still working on #38  May jump on #57
+- Magda still working #57 and then will work on #10 , #88 and 
+- Hannah almost finished #54 (nothing checked in acceptance criteria.  Next story (needs to be written. hard code incident and will pull from DB. Finished #80
+- Maciej closed #71  and #83, working #70
+
+
 ## Week 14 - Apr 12 ##
 
 ## Week 15 - Apr 19 ##
