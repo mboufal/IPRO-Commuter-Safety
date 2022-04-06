@@ -66,7 +66,23 @@ Remember the dry run demo/presentation is on 4/19 and the final class presentati
 
 ## Week 12 - Mar 29 ##
 
+- Marciaj: #69 finished,  #74 complete; working on #70 and #71
+
+- Angela  #73 and #68 are complete;  working on #79 (needs to flesh out description / acceptance criteria
+
+- Jake  #38 almost done but changes got lost in a push so needing to redo (merge conflicts)
+
+- Hanna #23 finishing on deck #80, 
+
+- Magda working on #57, and helping with other team members on CSS/styling
+
 ## Week 13 - Apr 5 ##
+
+- Jake  still working on #38  May jump on #57
+- Magda still working #57 and then will work on #10 , #88 and 
+- Hannah almost finished #54 (nothing checked in acceptance criteria.  Next story (needs to be written. hard code incident and will pull from DB. Finished #80
+- Maciej closed #71  and #83, working #70
+
 
 ## Week 14 - Apr 12 ##
 

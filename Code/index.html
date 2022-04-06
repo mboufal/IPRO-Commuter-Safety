@@ -3,45 +3,6 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .navbar {
-      overflow: hidden;
-      background-color: #333;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-    }
-
-    .navbar a, #user-select-group {
-      float: left;
-      display: block;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-    }
-
-    .navbar a:hover {
-      background: #ff0000;
-      color: black;
-    }
-
-    .navbar a.active {
-      background-color: #04AA6D;
-      color: white;
-    }
-
-    .main {
-      padding: 16px;
-      margin-bottom: 30px;
-    }
-  </style>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -54,6 +15,7 @@
     href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Roboto&family=Roboto+Condensed&display=swap"
     rel="stylesheet">
   <script type="text/javascript" src="js/incident_page.js"></script>
+  <script src="js/map.js"></script>
   <title>IPRO GROUP E | Home</title>
 </head>
 
@@ -126,14 +88,26 @@
       <div style="display: block">
         <a href="incident.html"><div class="container" style="background-color:#f1f1f18c; border: #333;"><p>scrolling feed section</p></a></div>
       </div>
-      <div style="width: 50%">
+
+
+      <div id="map"></div>
+
+      <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+      <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDphMmvB6L-q-r1gcTLxcd0nY1FN5hU4mI&callback=initMap"
+      ></script>
+    
+      </div>    
+
+
+      <!-- <div style="width: 50%">
         <div style="display: flex; justify-content: space-between">
           <iframe src="https:/google.com/maps/d/u/0/embed?mid=1JHet-vdWR1OvLKNCepH2V8lrwHutU2UY&ehbc=2E312F" width="640" height="480"></iframe>
         </div>
         <div style="display: flex; justify-content: center">
           <a href="map.html"><button class=".btn">+</a>
         </div>
-      </div>
+      </div> -->
       <div style="width: 50%">
         <div style="display: flex; justify-content: space-between"></div>
       </div>
