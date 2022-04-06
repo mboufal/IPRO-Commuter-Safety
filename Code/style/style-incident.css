@@ -254,8 +254,7 @@
 }
 .topnav-centered{
 	width:90%;
-	margin-left:5%;
-	margin-right:5%;
+	margin: auto;
 }
 
 @media screen and (max-width: 600px) {/*screen sizes less than 600px */
@@ -263,16 +262,10 @@
 .wrapper{
   width: 300px;
 }
-#main-nav{
-  width: 100%;
-}
 .dropdown {
   width: 100%;
 }
 
-.main-img{
-  width: 100%;
-}
 .topnav a:not(:first-child) {
   display: none;
 }
@@ -293,6 +286,6 @@
   display: block;
   text-align: left;
 }
-/*----------------------------TOP NAV end*/
+
 
 }
