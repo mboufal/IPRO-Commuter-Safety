@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -16,7 +17,7 @@
     rel="stylesheet">
   <script type="text/javascript" src="js/incident_page.js"></script>
   <title>IPRO GROUP E | Home</title>
-  
+
   <style>
     body {
       box-sizing: border-box;
@@ -101,10 +102,11 @@
   <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
   <!-- Database Connection -->
   <script type="text/javascript" src="js/DBConnect.js"></script>
-  </head>
+</head>
 
 <body>
-  <div class="topnav" id="myTopnav"><!--TOP NAVIGATION-->
+  <div class="topnav" id="myTopnav">
+    <!--TOP NAVIGATION-->
     <a href="index.html" class="active"><i class="fa fa-home" aria-hidden="true"></i></a>
     <a href="map.html">Map</a>
     <a href="signin.html">Sign In</a>
@@ -114,7 +116,8 @@
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
-  </div><!--END OF TOP NAVIGATON-->
+  </div>
+  <!--END OF TOP NAVIGATON-->
   <div style="width: 50%">
     <div style="display: flex; justify-content: space-between"></div>
     <div style="width: 50%;">
@@ -124,8 +127,7 @@
       <div class="container">
         <form onsubmit="return false">
           <div class="row">
-            <p>Click the button to get your current location.</p>
-			<button id="locate" type="button">Get Current Location</button>
+            <button id="locate" type="button">Get Current Location</button>
             <div class="col-25">
               <label for="location">Location</label>
             </div>
@@ -134,12 +136,31 @@
               <input type="text" id="long" name="Longitude" placeholder="Longitude coordinate of  incident..">
             </div>
           </div>
-		  <div class="row">
+          <div class="row">
+            <div id="incident-type-select-group">
+              <div class="col-25">
+                <label id="incident-type-select-label" for="incident-type-dropdown">
+                  Incident type
+                </label>
+              </div>
+              <div class="col-75">
+                <select id="incident-type-dropdown" name="incident-type">
+                  <option value="a2">Assault</option>
+                  <option value="a4">Flu Outburst</option>
+                  <option value="a5">Paintball Shooting</option>
+                  <option value="a1">Robbery</option>
+                  <option value="a3">Verbal Harassment</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="row">
             <div class="col-25">
               <label for="subject">Subject</label>
             </div>
             <div class="col-75">
-              <textarea id="description" name="description" placeholder="Write a brief description of the issue.." style="height:200px"></textarea>
+              <textarea id="description" name="description" placeholder="Write a brief description of the issue.."
+                style="height:200px"></textarea>
             </div>
           </div>
           <div><label for="photo">Upload a photo</label>
@@ -151,19 +172,22 @@
                 <input id="submit" type="submit" value="Submit">
               </div>
             </div>
-          
-        </div>
+
+          </div>
       </div>
     </div>
-    </div>
-<div class="footer1">
+  </div>
+  <div class="footer1">
     <ul class="topnav-centered">
-	  <li><a href="report.html"><img src="images/report-button.png" alt="Red Button to report an indcident" class="icon-style"/></a></li>
-      <li><a href="callbutton.html"><img src="images/911button.jpg" alt="Call Emerigency Services" class="icon-style" /></a></li>
-	  <li><a href="walkbuddy.html"><img src="images/green.png" alt="Green button to find a walk buddy" class="icon-style"/></a></li>
+      <li><a href="report.html"><img src="images/report-button.png" alt="Red Button to report an indcident"
+            class="icon-style" /></a></li>
+      <li><a href="callbutton.html"><img src="images/911button.jpg" alt="Call Emerigency Services"
+            class="icon-style" /></a></li>
+      <li><a href="walkbuddy.html"><img src="images/green.png" alt="Green button to find a walk buddy"
+            class="icon-style" /></a></li>
     </ul>
   </div>
-    <script type="text/javascript" src="js/ReportWrite.js"></script>
-  </body>
+  <script type="text/javascript" src="js/ReportWrite.js"></script>
+</body>
 
 </html>
