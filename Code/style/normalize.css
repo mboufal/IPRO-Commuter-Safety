@@ -360,3 +360,44 @@ template {
 [hidden] {
   display: none;
 }
+/* (A) STANDARD ROW HEIGHT */
+.vwrap, .vitem {
+  height: 30px;
+  line-height: 30px;
+  color: #eee;
+}
+ 
+/* (B) FIXED WRAPPER */
+.vwrap {
+  overflow: hidden; /* HIDE SCROLL BAR */
+  background: #eee;
+}
+/* (C) TICKER ITEMS */
+.vitem { text-align: center; }
+
+@keyframes fade {
+  0% { color: #eee; }
+  30% { color: black; }
+  70% { color: black; }
+  100% { color: #eee; }
+}
+.vmove-fade {
+  animation-name: fade;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(1, 0, .5, 0);
+}
+
+@keyframes startfade {
+  0% { color: black; }
+  70% { color: black; }
+  100% { color: #eee; }
+}
+.vmove-start-fade {
+  animation-name: startfade;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(1, 0, .5, 0);
+}
+
+.vmove:hover { animation-play-state: paused; }
