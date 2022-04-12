@@ -1,3 +1,36 @@
+/* (A) STANDARD ROW HEIGHT */
+.vwrap, .vitem {
+  height: 30px;
+  line-height: 30px;
+}
+ 
+/* (B) FIXED WRAPPER */
+.vwrap {
+  overflow: hidden; /* HIDE SCROLL BAR */
+  background: #eee;
+}
+/* (C) TICKER ITEMS */
+.vitem { text-align: center; }
+ 
+/* (D) ANIMATION - MOVE ITEMS FROM TOP TO BOTTOM */
+/* CHANGE KEYFRAMES IF YOU ADD/REMOVE ITEMS */
+.vmove { position: relative; }
+@keyframes tickerv {
+  0% { bottom: 0; } /* FIRST ITEM */
+  30% { bottom: 30px; } /* SECOND ITEM */
+  60% { bottom: 60px; } /* THIRD ITEM */
+  90% { bottom: 90px; } /* FORTH ITEM */
+  100% { bottom: 0; } /* BACK TO FIRST */
+}
+.vmove {
+  animation-name: tickerv;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(1, 0, .5, 0);
+}
+.vmove:hover { animation-play-state: paused; }
+
+
     .button {
       border: none;
       color: white;
