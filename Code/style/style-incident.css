@@ -150,7 +150,14 @@
 #incidents{
 	font-size: 1.5em;
 	background: yellow;
+	
+	 border: 1px solid #ddd;
+	
 }	
+#incident.div {
+	display: block;
+	margin: 10px;
+}
 	
 /*------------------------statick footer------------------------*/
 .footer1 {
