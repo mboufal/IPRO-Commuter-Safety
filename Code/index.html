@@ -48,6 +48,19 @@
       <div class="vitem">Incident3 Type: Location: Time: GEOtag?</div>
       <div class="vitem">Incident4 Type: Location: Time: GEOtag?</div>
     </div>
+	<script type="text/javascript" >
+		$(document).ready(function () {
+			let newBottom = 0;
+			const interval = setInterval(function() {
+				$(".vmove").attr("style", "position: relative; bottom: " + newBottom + "px");
+				newBottom += 30;
+				let childDivCount = $(".vmove > div").length;
+				if(newBottom > ((childDivCount - 1) * 30)) {
+					newBottom = 0;
+				}
+			}, 2000);
+		});
+	</script>	  
   </div>
   <div class="wrapper">
       <div id="map"></div>
