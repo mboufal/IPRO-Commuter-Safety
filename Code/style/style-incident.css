@@ -186,6 +186,9 @@
   margin-top:5px;
   margin-bottom: 10px;
 }
+.logo{
+	text-align:center;
+}
 /*--------------------------------wrapper----------------------------------*/
 .wrapper{
   width: 960px;
