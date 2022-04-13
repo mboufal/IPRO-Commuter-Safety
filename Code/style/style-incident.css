@@ -147,16 +147,10 @@
       cursor: pointer;
     }
 
-	
-	
 #incidents{
 	font-size: 1.5em;
 	background: yellow;
 	border: 1px solid black;
-}	
-#incident.div {
-	display: block;
-	margin: 10px;
 }
 	
 /*------------------------statick footer------------------------*/
@@ -196,9 +190,9 @@
 .wrapper{
   width: 960px;
   margin: auto;
+  margin-bottom: 100px;
   padding: 30px;
   padding-bottom:160px;
-  
 }
 
 /*----------------------------Top Navigation ------------------------------*/
