@@ -15,13 +15,13 @@ _______
 
 Hello and welcome to GuidED, the application that will make your travel safer.
 
-Here we have the demo version of the GuidED application, baase to the IIT main campus it show the applications functionality and potentional. 
+Here we have the demo version of the GuidED application, center to the IIT main campus it show the applications functionality and potentional. 
 
     *Viewing / Home Screen*
 
 Via the home screen the user can view common points of interest such as bike racks and campus emergency buttons as well as only potential safety hassards. 
 
-These hassards can be a simple as a patch of black ice on the side walk or as sever as an assault or traffic accident. 
+These hassards can be as simple as a patch of black ice on the side walk or as sever as a traffic accident r mugging. 
 
 The reports are crowd sourced but the users of the application via the report feature. Sever safe incidents alert public safety officals on the admin side and recieve verification status. The report is geotagged into the system. This means that people transiting through campus no longer have to only rely on the slow public safety alert network, they can actively check the safety of their commute before the leave allowing them time to make the neccaasry adjustmets. 
 
