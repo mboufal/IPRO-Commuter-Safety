@@ -2,6 +2,7 @@
 .vwrap, .vitem {
   height: 30px;
   line-height: 30px;
+  width: 100%;
 }
  
 /* (B) FIXED WRAPPER */
@@ -10,7 +11,8 @@
   background: #2c6129;
 }
 /* (C) TICKER ITEMS */
-.vitem { text-align: center; }
+.vitem { text-align: center;
+		 }
  
 /* (D) ANIMATION - MOVE ITEMS FROM TOP TO BOTTOM */
 /* CHANGE KEYFRAMES IF YOU ADD/REMOVE ITEMS */
@@ -327,6 +329,7 @@
   display: block;
   text-align: left;
 }
-
+.vitem { font-size: 9px;
+		 }
 
 }
