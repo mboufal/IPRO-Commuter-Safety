@@ -7,7 +7,7 @@
 /* (B) FIXED WRAPPER */
 .vwrap {
   overflow: hidden; /* HIDE SCROLL BAR */
-  background: #eee;
+  background: #2c6129;
 }
 /* (C) TICKER ITEMS */
 .vitem { text-align: center; }
