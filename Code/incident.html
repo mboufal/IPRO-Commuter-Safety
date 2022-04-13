@@ -15,6 +15,7 @@
   <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
   <!-- Database Connection -->
   <script type="text/javascript" src="js/DBConnect.js"></script>
+  <script src="js/map-incidents.js"></script>
 
   <title>IPRO GROUP E | Accident Reports</title>
 </head>
@@ -43,7 +44,13 @@
     <div id="incidents">
 
     </div>
+  <div class="maps" id="map">
 
+  <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+  <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDphMmvB6L-q-r1gcTLxcd0nY1FN5hU4mI&callback=initMap"
+  ></script>
+  </div>
   </div>
   <div class="footer1">
     <ul class="topnav-centered">
@@ -54,6 +61,11 @@
   </div>
   
 <script type="text/javascript" src="js/ReportRead.js"></script>
+
+
+
+
+
 </body>
 
 

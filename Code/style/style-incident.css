@@ -231,10 +231,12 @@ form {
     }
 #incidents{
 	font-size: 1em;
-	text-align: center;
+	text-align: left;
 	border: 1px solid black;
 }
-	
+.map{
+margin: 10 px, 100px;
+}	
 /*------------------------statick footer------------------------*/
 .footer1 {
   position:fixed;
@@ -378,6 +380,7 @@ form {
 	width:90%;
 	margin: auto;
 }
+}
 
 @media screen and (max-width: 600px) {/*screen sizes less than 600px */
 /*----------------------------TOP NAV @600---------------------------*/
@@ -410,5 +413,8 @@ form {
 }
 .vitem { font-size: 9px;
 		 }
-
+#incidents{
+	font-size: 1em;
+	}
+	
 }
