@@ -33,16 +33,15 @@
 .vmove:hover { animation-play-state: paused; }
 
 
-
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+ }
 
 /*--------------------------------------registration-style----------------------------------*/
 .container {
       padding: 16px;
     }
-form {
-      border: 3px solid #f1f1f1;
-}
-
 input[type=text],
 input[type=password] {
       width: 100%;
@@ -52,19 +51,18 @@ input[type=password] {
       border: none;
       background: #f1f1f1;
 }
-
 input[type=text]:focus,
 input[type=password]:focus {
       background-color: #ddd;
       outline: none;
     }
 
-    hr {
+hr {
       border: 1px solid #f1f1f1;
       margin-bottom: 25px;
     }
 
-    .registerbtn {
+.registerbtn {
       background-color: #04AA6D;
       color: white;
       padding: 16px 20px;
@@ -75,24 +73,19 @@ input[type=password]:focus {
       opacity: 0.9;
     }
 
-    .registerbtn:hover {
+.registerbtn:hover {
       opacity: 1;
     }
 
-    a {
+a {
       color: dodgerblue;
     }
 
-    .signin {
+.signin {
       background-color: #f1f1f1;
       text-align: center;
     }
-
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-    }
-
-    form {
+form {
       border: 3px solid #f1f1f1;
     }
 
@@ -135,11 +128,6 @@ input[type=password]:focus {
       width: 40%;
       border-radius: 50%;
     }
-
-    .container {
-      padding: 16px;
-    }
-
     span.psw {
       float: right;
       padding-top: 16px;
@@ -201,10 +189,6 @@ input[type=password]:focus {
       height: 35px;
     }
 
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-    }
 
     .navbar {
       overflow: hidden;
@@ -245,22 +229,9 @@ input[type=password]:focus {
       border-radius: 50%;
       border: 10px solid rgb(68, 67, 67);
     }
-
-    .button {
-      border: none;
-      color: white;
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 4px 2px;
-      cursor: pointer;
-    }
-
 #incidents{
-	font-size: 1.5em;
-	background: yellow;
+	font-size: 1em;
+	text-align: center;
 	border: 1px solid black;
 }
 	
