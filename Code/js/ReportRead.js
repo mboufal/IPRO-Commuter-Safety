@@ -43,7 +43,7 @@ This file takes data from report table of the database and displays it to the in
       }
 
       var div = document.createElement("div");
-      div.innerHTML = accident_title + ' - (' + accident_location.latitude + ', '+ accident_location.longitude + ') - ' + report_date;
+      div.innerHTML = accident_title + ' | (' + accident_location.latitude + ', '+ accident_location.longitude + ') | ' + report_date;
       incident_display.appendChild(div);
     }
   } catch (error) {

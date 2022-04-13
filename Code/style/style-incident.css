@@ -150,9 +150,7 @@
 #incidents{
 	font-size: 1.5em;
 	background: yellow;
-	
-	 border: 1px solid #ddd;
-	
+	border: 1px solid black;
 }	
 #incident.div {
 	display: block;
