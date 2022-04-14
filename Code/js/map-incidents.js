@@ -1,26 +1,42 @@
 
   // Initialize and add the map
   function initMap() {
-    // The location of Uluru
-    // const uluru = { lat: -25.344, lng: 131.036 }; -- can create markers manually this way but we dont need
-    // The map, centered at MTCC 41.83528875213209, -87.62582573024567
     const map = new google.maps.Map(document.getElementById("map"), {
       center: { lat: 41.835, lng: -87.626 },
-      zoom: 13
+      zoom: 15,
     });
+	
 	const trafficLayer = new google.maps.TrafficLayer();
     trafficLayer.setMap(map);
     const transitLayer = new google.maps.TransitLayer();
     transitLayer.setMap(map);
-   
-   const robbery1 = new google.maps.Marker({
+	
+   const robbery = new google.maps.Marker({
     position:  { lat: 41.83135172391024, lng:  -87.62640991620079 },
     map: map,
 	title: "Robbery",
-	animation: google.maps.Animation.BOUNCE,
+	animation: google.maps.Animation.DROP,
+	label: "1",
   });
-  marker.addListener("click", () => {
-    infowindow.open(map, marker);
+const assault = new google.maps.Marker({
+    position:  { lat: 41.838075139495025, lng: -87.62493056354852 },
+    map: map,
+	title: "Assault",
+	animation: google.maps.Animation.DROP,
+	label: "2",
   });
- 
+const flu = new google.maps.Marker({
+    position:  { lat: 41.83159373316756,  lng: -87.6273170330335 },
+    map: map,
+	title: "Flu Outbreak",
+	animation: google.maps.Animation.DROP,
+	label: "3",
+  });
+  const harassment = new google.maps.Marker({
+    position:  { lat: 41.83302466916122,  lng:  -87.62671621821612 },
+    map: map,
+	title: "verbal harassment",
+	animation: google.maps.Animation.DROP,
+	label: "4",
+  });
   }
