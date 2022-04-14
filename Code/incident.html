@@ -15,11 +15,11 @@
   <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
   <!-- Database Connection -->
   <script type="text/javascript" src="js/DBConnect.js"></script>
-
+  <script src="js/map-incidents.js"></script>
   <title>IPRO GROUP E | Accident Reports</title>
 </head>
-
 <body>
+  <img id="logo" src="images/iProLogo.png" alt="logo">
   <div class="topnav" id="myTopnav"> <!--TOP NAVIGATION-->
     <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a>
     <a href="map.html">Map</a>
@@ -33,8 +33,7 @@
   </div>
   <!--END OF TOP NAVIGATON-->
   <div class="wrapper">
-    <p style="text-align: center;"><a href="index.html"><img src="images/iProLogo.png" alt="guided" class="image2"/></a></p>
-    <p>Incidents</p>
+    <p style="text-align:center">Incidents</p>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni maiores ducimus explicabo voluptatibus praesentium
       voluptates soluta adipisci ipsa eaque vel optio, placeat dignissimos officiis eum obcaecati blanditiis quasi totam
@@ -44,7 +43,13 @@
     <div id="incidents">
 
     </div>
+  <div class="maps" id="map">
 
+  <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+  <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDphMmvB6L-q-r1gcTLxcd0nY1FN5hU4mI&callback=initMap"
+  ></script>
+  </div>
   </div>
   <div class="footer1">
     <ul class="topnav-centered">
@@ -56,6 +61,4 @@
   
 <script type="text/javascript" src="js/ReportRead.js"></script>
 </body>
-
-
 </html>
