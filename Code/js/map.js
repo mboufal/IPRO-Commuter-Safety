@@ -42,9 +42,14 @@ async function asyncCall() {
       const accident_description = object.get('description');
       const accident_id = object.get('accident_id');
       let accident_title = "";
+      let sterilized_desc = accident_description;
       console.log(report_date);
       console.log(accident_location);
       console.log(accident_description);
+
+      if (accident_description == null) {
+        sterilized_desc = "No description provided.";
+      }
 
       if (accident_id == "A1") {
         accident_title = "Robbery";
@@ -72,7 +77,7 @@ async function asyncCall() {
     "</div>" +
     '<h1 id="firstHeading" class="firstHeading">' + accident_title + '</h1>' +
     '<div id="bodyContent">' +
-    "<p>Description: " + accident_description + "</p>" +
+    "<p>Description: " + sterilized_desc + "</p>" +
     "<p>Report submitted: <b>" + report_date + "</b></p>" +
     "</div>" +
     "</div>";
