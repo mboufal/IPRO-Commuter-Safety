@@ -40,10 +40,9 @@ This file takes data from report table of the database and displays it to the in
       } 
       else if (accident_id == "A5") {
         accident_title = "Paintball Shooting";
-      }
-
+	  }
       var div = document.createElement("div");
-      div.innerHTML = accident_title + ' - (' + accident_location.latitude + ', '+ accident_location.longitude + ') - ' + report_date;
+      div.innerHTML = ' &#10139;' + accident_title + ' | &#128205; (' + accident_location.latitude + ', '+ accident_location.longitude + ') |  &#128197; ' + report_date;
       incident_display.appendChild(div);
     }
   } catch (error) {

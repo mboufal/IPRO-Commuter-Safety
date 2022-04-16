@@ -15,13 +15,19 @@
     href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Roboto&family=Roboto+Condensed&display=swap"
     rel="stylesheet">
   <script type="text/javascript" src="js/incident_page.js"></script>
+<<<<<<< HEAD
   <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
   <script type="text/javascript" src="js/DBConnect.js"></script>
 
   <title>IPRO GROUP E | Home</title>
+=======
+  <script src="js/map.js"></script>
+  <title>IPRO GROUP E | Map</title>
+>>>>>>> 9a3d01e7e1ff12d06a574f8f82a2991a409cba32
 </head>
 
 <body>
+  <img id="logo" src="images/iProLogo.png" alt="logo">
   <div class="topnav" id="myTopnav"><!--TOP NAVIGATION-->
     <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a>
     <a href="map.html" class="active">Map</a>
@@ -34,19 +40,12 @@
     </a>
   </div>
   <!--END OF TOP NAVIGATON-->
-
-  <div id="map"></div>
-
+  <div id="map">
   <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
   <script async
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDphMmvB6L-q-r1gcTLxcd0nY1FN5hU4mI&callback=initMap"
   ></script>
-  
-  <!-- <div style="wrapper">
-    <div style="width: 50%">
-      <div style="display: flex; justify-content: space-between"></div>
-      <p><iframe src="https:/google.com/maps/d/u/0/embed?mid=1JHet-vdWR1OvLKNCepH2V8lrwHutU2UY&ehbc=2E312F" width="640" height="480"></iframe> </p>
-    </div> -->
+  </div>
    <div class="footer1">
     <ul class="topnav-centered">
 	  <li><a href="report.html"><img src="images/report-button.png" alt="Red Button to report an indcident" class="icon-style"/></a></li>
