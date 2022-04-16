@@ -14,10 +14,10 @@ function initMap() {
     //   position: uluru,
     //   map: map,
     // });
-  //   const ctaLayer = new google.maps.KmlLayer({
-  //   url: "https://github.com/mboufal/IPRO-Commuter-Safety/raw/main/Code/iPro.kmz",
-  //   map: map,
-  // });
+    const ctaLayer = new google.maps.KmlLayer({
+    url: "https://github.com/mboufal/IPRO-Commuter-Safety/raw/main/Code/iPro.kmz",
+    map: map,
+   });
 
 
 
