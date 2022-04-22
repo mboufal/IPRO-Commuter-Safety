@@ -63,7 +63,4 @@ Name Location Time zone offset from Chicago (Chicago is 0 offset)
    <td>
    </td>
   </tr>
-  <tr>
-  
-  </tr>
 </table>
